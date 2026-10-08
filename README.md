@@ -1,15 +1,15 @@
-# Cyberpunk-Theme für Pi
+# Cyberpunk Theme for Pi
 
-Ein dunkler Pi-Theme-Prototyp mit Neonpink, Cyan und Gelb auf dunkelblauen Flächen. Er färbt Oberfläche, Markdown, Syntax und HTML-Export; die Terminal-Hintergrundfarbe selbst bleibt beim Terminal.
+A dark Pi theme prototype with neon pink, cyan, and yellow on dark blue surfaces. It colors the interface, Markdown, syntax, and HTML exports; the terminal's background color remains controlled by the terminal itself.
 
-## Ausprobieren
+## Try it out
 
-Im Projektverzeichnis:
+From the project directory:
 
 ```sh
 pi --approve --use-theme cyberpunk
 ```
 
-`--approve` erlaubt Pi, das Projekt-Theme aus `.pi/themes/cyberpunk.json` für diesen Aufruf zu laden. Alternativ im laufenden Pi nach erteiltem Projektvertrauen über `/settings` das Theme **cyberpunk** auswählen. Nach Änderungen am Projekt-Theme `/reload` ausführen.
+`--approve` allows Pi to load the project theme from `.pi/themes/cyberpunk.json` for this invocation. Alternatively, once you have trusted the project in a running Pi session, select the **cyberpunk** theme via `/settings`. Run `/reload` after making changes to the project theme.
 
-Für die Nutzung außerhalb dieses Projekts die Datei nach `~/.pi/agent/themes/cyberpunk.json` kopieren und anschließend `pi --use-theme cyberpunk` starten. Bei sehr hell eingestelltem Terminal-Hintergrund empfiehlt sich ein dunkles Terminalprofil.
+To use the theme outside this project, copy the file to `~/.pi/agent/themes/cyberpunk.json`, then start Pi with `pi --use-theme cyberpunk`. If your terminal background is very light, a dark terminal profile is recommended.
